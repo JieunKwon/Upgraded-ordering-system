@@ -10,6 +10,7 @@ The project is upgraded from 'ordering-flow' page which was made to show simple 
 1. Sign In & Sign Up - access db
 2. Choose the product from product list - access db
 3. Choose options for ordering - access db
+4. View shopping cart - access db
 4. Modify the previous options - access db
 3. Input the shipping information
 4. confirmation order - access db
