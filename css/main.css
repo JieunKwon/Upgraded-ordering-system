@@ -1,0 +1,201 @@
+			/*************************************/
+			/* 	Intro page & general css		 */
+			/*************************************/
+			
+			body {
+				/*margin:5%;*/
+				text-align:center; 
+			}
+			
+			.tbl_main{
+				background-color:#ffffff;
+				border:thin solid #2BA5BA;
+				height:150px;
+				width:240px;
+				margin:10px auto; 
+				text-align:left; 
+				padding:25px;  
+				font-size:14px; 
+				color:##004554;
+
+			}
+  
+			.tbl_signup{
+				background-color:#ffffff;
+				border:thin solid #2BA5BA;
+				height:150px;
+				width:600px;
+				margin:10px auto; 
+				text-align:left; 
+				padding:25px;  
+				font-size:14px; 
+				color:##004554;
+
+			}
+			
+			#id_chk_result{
+				background-color:#F6F6F6;
+				border:thin solid #22741C;
+				height:0px;
+				width:180px;
+				margin:10px auto; 
+				text-align:center;				
+				color:#5587ED;
+				visibility:hidden;
+				/*visibility:visible;*/
+
+			}
+ 
+			.txt_title{ 
+				color:#2BA5BA;
+				text-align:center;
+				font-size:20px;
+			}
+			
+			.txt_general{ 
+				background-color:#FFFFFF;
+				border:thin solid #004554; 
+			}
+			
+			.txt_general:focus{
+				background-color:#B2EBF4;
+				border:thin solid #004554; 
+			}
+			
+			.bt_general{
+				width: 170px;
+				height: 25px;
+				background-color:#EEEEEE;
+				border:thin solid #004554; 
+				border-radius:5px;
+			}
+			
+			.bt_general:hover{
+				background-color:#F8FFFF;
+				border:thin solid #4374D9; 
+			}
+
+			 
+			#home_link{
+				font-size:20px; 
+				font-family:Chiller;
+				color:#22741C;
+				text-decoration:none;
+			}
+			
+			
+			
+			
+			/*************************************
+					Product page 
+			*************************************/
+			
+			.tbl_prod_main{
+				background-color:#ffffff;
+				border:thin solid #2BA5BA; 
+				width:600px;
+				margin:10px auto; 
+				text-align:center;
+				vertical-align:text-top;
+				padding:23px;  
+				font-size:14px; 
+				color:##004554;
+
+			}
+		 
+			.tbl_cart_main{
+				background-color:#ffffff;
+				border:thin solid #2BA5BA; 
+				width:600px;
+				margin:10px auto; 
+				text-align:left;
+				vertical-align:text-top;
+				padding:23px;  
+				font-size:14px; 
+				color:##004554;
+
+			}
+			
+			.txt_pname{  
+				font-weight:bold;
+				text-align:center;
+				font-size:14px;
+			}
+			.txt_prod{ 
+				background-color:#FFFFFF;
+				border:thin solid #004554;
+				text-align:right;
+			}
+			
+			.txt_prod:focus{
+				background-color:#F8FFFF;
+				border:thin solid #004554; 
+			}
+			
+			.txt_small_option{
+				font-size:12px; 
+				font-family:Arial;
+				color:#000000;
+				text-decoration:none;
+			}
+			
+			.txt_small{
+				font-size:10px; 
+				font-family:Arial;
+				color:#22741C;
+				text-decoration:none;
+			}
+			
+			.bt_small{
+				width: 70px;
+				height: 20px;
+				size:10px;
+				background-color:#EEEEEE;
+				border:thin solid #004554; 
+				border-radius:5px;
+			}
+			
+			.bt_cart{
+				width: 100px;
+				height: 20px;
+				size:10px;
+				background-color:#EEEEEE;
+				border:thin solid #004554; 
+				border-radius:5px;
+			}
+			
+			.bt_cart:hover{
+				background-color:#FFD8D8;
+				border:thin solid #4374D9; 
+			}
+			
+			.tbl_result{
+				background-color:#E6FFFF;
+				border:thin solid #2BA5BA;
+				margin:10px auto; 
+				padding:10px;
+				width:260px; 
+				text-align:left;
+				font-size:12px; 
+				color:#004554;
+			}
+			
+			#cal_result{
+				background-color:#F6F6F6;
+				border:thin solid #22741C; 
+				width:400px;
+				margin:10px auto; 
+				padding:10px;
+				text-align:center;				
+				color:#5587ED;
+				/*visibility:hidden;*/
+				visibility:visible;
+
+			}
+			
+			.rst_total{
+				font-size:16px; 
+				color:#CC3D3D;
+				font-weight:bold;
+			}
+ 

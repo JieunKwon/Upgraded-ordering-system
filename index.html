@@ -1,0 +1,80 @@
+<!--
+		///////////////////////////////////////////////////////////////////////////////////////
+		// Shopping website with shopping cart 
+		// page : index.html 
+		// page task : Login 
+		// Written by : Jieun Kwon
+		// Written Date : April 14, 2018
+		// updated Date : April 14, 2018
+		// 
+		// related page : 
+		// index.html - sign in page
+		// signup.html - sign up for creating account
+		// product.php - display items' list, can choose other options for order
+		// confirm.html - confirm order and fill out for user information for delivery
+		// result.html - display and confirm result, and link to main page 
+		// scripts/shopping.js - all javascript code
+		// css/main.css - all css 
+		///////////////////////////////////////////////////////////////////////////////////////
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Jieun Kwon</title> 
+
+		<!-- style sheet -->
+		<link href = "css/main.css" type = "text/css" rel = "stylesheet"/> 
+	</head>
+	<body onload="document.getElementById('userid').focus();">
+	<!-- Heading -->
+		<h1>
+		Sign In
+		</h1> 
+		 
+		 <form name="loginForm" method="post" >
+		 <table border="0" align="center" class="tbl_main">
+			<tr>
+				<td >  
+					<p id="id_chk_result"> Your login attempt was unsuccessful.<br> Please try again.</p>
+				</td>
+			</tr>
+			<tr>
+				<td height="30"> 
+					User ID<br>
+					<!-- id -->
+					 <input type="textbox" class="txt_general" id= "userid" name="uid" size="20"> 
+				</td> 
+			</tr>
+			<tr>
+				<td height="30"> 
+					Password<br>
+					<!-- password -->
+					<input type = "password" value="" class="txt_general" id="userpw" name = "upw" size="20"> 
+				</td> 
+			</tr>
+			<tr>
+				<td height="20"> 
+				</td>
+			</tr>
+			<!-- Buttons --> 
+			<tr>
+				<td height="40">  
+					 <input type = "button" value="Log In" class="bt_general" onclick="login();">
+				</td>
+			</tr>
+			<tr>
+				<td class="txt_small">
+				If you don't have an account,<br>
+					 <input type = "button" value="Sign Up" class="bt_general" onclick="document.location.href='signup.html';"> 
+				</td>
+			</tr>
+		<!-- END: Buttons -->
+		</table>
+		</form>
+		
+		<!-- Extenal script -->
+		<script src="scripts/shopping.js"></script> 
+		
+	</body>
+</html>
+	

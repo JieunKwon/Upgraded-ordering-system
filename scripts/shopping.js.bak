@@ -1,0 +1,49 @@
+		// calculate total costs
+		function prod_recal()
+		{
+			// items' price
+			var tot_price = prod_init();
+			var insurance_price = 0;
+			
+			// !! insurance fee should be calculate first,
+			// items' price * 1.1 
+			if(form_cart.insurance.checked == true)	
+			{ 
+				insurance_price = tot_price * 0.1;  
+			}
+			 
+			// * 0.95 for promotional code
+			if(form_cart.promo_code.value != "")
+			{
+				tot_price *= 0.95;  
+			}
+			
+			// + delivery cost
+			if(form_cart.delivery[0].checked)
+			{ 
+				tot_price += parseFloat(form_cart.delivery[0].value);
+				
+			}else if(form_cart.delivery[1].checked)
+			{
+				tot_price += parseFloat(form_cart.delivery[1].value);
+			}
+			 
+			// + 9.99 for gift wrapping 
+			if(form_cart.gift.checked == true)	
+			{  
+				tot_price += parseFloat(form_cart.gift.value);
+				 
+			}
+			
+			// * 1.13 for tax
+			tot_price *= 1.13;
+			
+			alert(tot_price);
+			
+			// addition insurance
+			tot_price += insurance_price;
+			
+			// print result
+			document.getElementById("cal_result").innerHTML = "CAD$" + tot_price.toFixed(2);
+		
+		}

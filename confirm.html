@@ -1,0 +1,106 @@
+<!--
+		///////////////////////////////////////////////////////////////////////////////////////
+		// Shopping website with shopping cart 
+		// page : product.html 
+		// page task : shopping cart shows the selected items, other options for choosing, and total price
+		//			  when onload page, the total price 
+		// 			  all tasks	for calculating :: scripts/shopping.js 
+		// Written by : Jieun Kwon
+		// Written Date : Feb 26, 2018
+		// updated Date : Mar 01, 2018 
+		///////////////////////////////////////////////////////////////////////////////////////
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Jieun Kwon</title> 
+
+		<!-- style sheet -->
+		<link href = "css/main.css" type = "text/css" rel = "stylesheet"/> 
+	</head>
+	<body onload="document.orderConfirm.name.focus();">
+	<!-- Heading -->
+		<h1>
+		Order Confirmation
+		</h1> 
+		 
+		 <table border="0" align="center" class="tbl_prod_main">	
+			<tr>
+				<td height="20" colspan="2" class="txt_small" width="170"> 
+					Please confirm your information for shipping your items
+				</td> 
+			</tr>
+			<tr>
+				<td height="1px" colspan="2" bgcolor="#2BA5BA"> 
+				</td>
+			</tr>	
+			<tr>
+				<td height="30"> 
+				 Name
+				</td>
+				<td>	
+				<!-- Form (shoppingCart) Start -->
+				<form name="orderConfirm" method="post" > 
+					<input type="textbox" class="txt_prod" id="name" value="" size="15"> 
+				</td> 
+			</tr>
+			<tr>
+				<td height="30"> 
+				 Phone
+				</td>
+				<td>	 
+					<input type="textbox" class="txt_prod" id="phone" value="" size="15"> 
+				</td> 
+			</tr>
+			<tr>
+				<td height="30"> 
+				 E-mail
+				</td>
+				<td>	 
+					<input type="textbox" class="txt_prod" id="email" value="" size="30"> 
+				</td> 
+			</tr>
+					
+			<tr>
+				<td height="30"> 
+				 Shipping Address
+				</td>
+				<td>	 
+					<input type="textbox" class="txt_prod" id="address" value="" size="30"><br> 
+					 
+				</td> 
+			</tr>
+			 <tr>
+				<td height="30"> 
+				 Comments
+				</td>
+				<td>	 
+					<textarea class="txt_prod" id="comment" value="" cols="32" rows="3"> </textarea>
+				</td> 
+			</tr>
+			<tr>
+				<td height="20" colspan="2"> 
+				<!-- after validation check, print result -->
+				<p id="rst_total" class="rst_total"></p>
+				</td>
+			</tr>
+		</table>  
+			 
+		<!-- Table for Buttons --> 
+			<table border="0" align="center"> 
+			<tr>
+				<td  height="40" width="600">  
+					 <input type = "button" value="Clear" class="bt_general" onclick="confirm_reset();">
+					 <input type = "button" value="Submit" class="bt_general" onclick="confirm_submit();"> 
+				</td>
+			</tr>
+		<!-- END: Buttons -->
+		</form>
+		</table>
+		
+		<!-- Extenal script -->
+		<script src="scripts/shopping.js"></script> 
+	
+	</body>
+</html>
+	

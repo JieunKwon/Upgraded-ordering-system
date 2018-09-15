@@ -1,0 +1,102 @@
+<!--
+		///////////////////////////////////////////////////////////////////////////////////////
+		// Assignment 6 : Shopping website with shopping cart 
+		// page : index.html 
+		// page task : Sign up Form 
+		// Written by : Jieun Kwon
+		// Written Date : Feb 26, 2018
+		// updated Date : April 14, 2018
+		// updated : database connection
+		///////////////////////////////////////////////////////////////////////////////////////
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jieun Kwon</title> 
+
+		<!-- style sheet -->
+		<link href = "css/main.css" type = "text/css" rel = "stylesheet"/> 
+	</head>
+	<body onload="document.getElementById('userid').focus();">
+	<!-- Heading -->
+		<h1>
+		Sign Up
+		</h1> 
+		 <form name="register" action="" method="post">
+		 <table border="0" align="center" class="tbl_signup" >
+			<tr height="25" >
+				<td colspan="2">  
+					<p class="txt_title">Enter id and password to create new account.</p>
+				</td>
+			</tr>
+			<tr>
+				<td height="30"> 
+					User ID
+				</td>
+				<td>
+					<!-- id -->
+					 <input type="textbox" class="txt_general" id="userid" name="userid" size="20"> 
+				</td> 
+			</tr>
+			<tr>
+				<td height="30"> 
+					Password
+				</td>
+				<td>
+					<!-- password -->
+					<input type = "password" value="" class="txt_general" id = "userpw" name="userpw" size="20"> 
+				</td> 
+			</tr>
+			<tr>
+				<td height="30"> 
+					Name
+				</td>
+				<td>
+					<!-- Name -->
+					<input type = "text" value="" class="txt_general" id = "uname" name="uname" size="20"> 
+				</td> 
+			</tr>
+			<tr>
+				<td height="30"> 
+					Email
+				</td>
+				<td>
+					<!-- password -->
+					<input type = "text" value="" class="txt_general" id = "email" name="email" size="50"> 
+				</td> 
+			</tr>
+			<tr>
+				<td height="30"> 
+					Address
+				</td>
+				<td>
+					<!-- password -->
+					<input type = "text" value="" class="txt_general" id = "addr" name="addr" size="50"> 
+				</td> 
+			</tr>
+			<tr>
+				<td height="20"> 
+				</td>
+			</tr>
+			<!-- Buttons --> 
+
+			<tr>
+				<td	align="center" colspan="2"> 
+					 <input type = "button" value="Sign Up" class="bt_general" onclick="signup();"> 
+				</td>
+			</tr>
+			<tr>
+				<td align="center" height="40" class="txt_small" colspan="2">  
+					If you already have an account,<br>
+					 <input type = "button" value="Sign In" class="bt_general" onclick="document.location.href='index.html';">
+				</td>
+			</tr>
+		<!-- END: Buttons -->
+		</table>
+		</form>
+		<!-- Extenal script -->
+		<script src="scripts/shopping.js"></script> 
+
+	</body>
+</html>
+	
