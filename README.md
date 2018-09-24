@@ -3,10 +3,17 @@ php / mySQL / HTML5 / CSS / JavaScript
 
 Ordering-Flow with Database
 
-April 2018
+@ created date : April 2018
 
 The project is upgraded from 'ordering-flow' page which was made to show simple online ordering pages.
- 
+
+Previous Version
+----------------
+
+
+
+Program Upgraded
+-----------------
 1. Sign In & Sign Up - access db
 2. Choose the product from product list - access db
 3. Choose options for ordering - access db
