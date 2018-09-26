@@ -309,7 +309,7 @@ session_start();
 		</form>
 		</table>
 		
-		<!-- Extenal script -->
+		<!-- Extenal javascript -->
 		<script src="scripts/shopping.js"></script> 
 
 	</body>
