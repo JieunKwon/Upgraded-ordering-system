@@ -5,11 +5,12 @@ Ordering-Flow with Database
 
 @ created date : April 2018
 
-The project is upgraded from 'ordering-flow' page which was made to show simple online ordering pages.
+The project is upgraded from 'ordering-flow' page,https://github.com/JieunKwon/Ordering-Flow, which was made to show simple online ordering pages.
 
 Previous Version
 ----------------
 
+https://github.com/JieunKwon/Ordering-Flow
 
 
 Program Upgraded
