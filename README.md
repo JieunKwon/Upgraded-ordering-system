@@ -7,6 +7,7 @@ Ordering-Flow with Database
 
 The project is upgraded from the first version for 'ordering-flow' page which was made to show simple online ordering pages.
 
+
 Previous Version
 ----------------
 
@@ -15,6 +16,7 @@ https://github.com/JieunKwon/Ordering-Flow
 
 Program Upgraded
 -----------------
+
 1. Sign In & Sign Up - access db
 2. Choose the product from product list - access db
 3. Choose options for ordering - access db
