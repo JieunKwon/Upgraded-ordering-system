@@ -1,5 +1,7 @@
 # Upgraded-ordering-system
-PHP / MySQL / HTML5 / CSS / JavaScript
+PHP / HTML5 / CSS / JavaScript
+
+DB -  MySQL
 
 Ordering-Flow with Database
 
